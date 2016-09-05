@@ -6,7 +6,7 @@ The purpose of this homework is to get you up and running with all the tools you
 In order to get full credit you must do several things.
 
 * Send an email to me with your Github account.
-* Create a Github repository that is a fork of this repository.
+* Clone a Github repository for hw1.
 * A log of your first sbt console session.
 * Some commits to your new Github repository.   
 
@@ -100,23 +100,21 @@ AStyle is a code formatter that works for Java and C++. This will be critical fo
 * [Ubuntu] ```sudo apt-get install astyle```
 * Confirm success by running the command from a terminal ```astyle``` (You should see the message 'Artistic Style has terminated')
 
-Step 3: Fork the hw1 repository and push a commit
+Step 3: Clone your hw1 repository and push a commit
 -------------------------------------------------
-You should have received an email from Github notifying you that you have been added to the 'nyu-oop' organization. This means you have access to class repositories. This is where you will get your homework assignments as well as project resources and code used in class.
+You should have received an email from Github notifying you that you have been added to the 'nyu-oop-fall16' organization. This means you have access to class repositories. This is where you will get your homework assignments as well as project resources and code used in class.
 
-* Open a browser [here](https://github.com/nyu-oop/hw1)
-* Click the 'Fork' button on the top right corner. Select your username as the fork destination.
-* Once the repo is created, copy to your clipboard the 'SSH clone URL' from the lower right text box on the screen.
+* Open a browser [here](https://github.com/nyu-oop-fall16/) and locate hw1
 * Choose a place on your computer for your homeworks to reside and open a terminal to that location.
 * Execute the following series of commands: <br/>
-  ```git clone https://github.com/<YOUR-GITHUB-USERNAME>/hw1.git```<br/>
+  ```git clone https://github.com/nyu-oop-fall16/<YOUR_GITHUB_USERNAME>-hw1.git```<br/>
   ```cd hw1   ```<br/>
   ```>sbt-rocks.txt   ```<br/>
   ```git add sbt-rocks.txt    ```<br/>
   ```git commit -m "First commit" sbt-rocks.txt   ```<br/>
   ```git push origin master   ```<br/>  
 
-You should now see a file 'sbt-rocks.txt' on the Github page for your fork of the hw1 repository. 
+You should now see a file 'sbt-rocks.txt' on the Github page for your hw1 repository. 
 
 Step 4: Execute some commands in Sbt
 ------------------------------------
