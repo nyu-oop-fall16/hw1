@@ -5,10 +5,9 @@ The purpose of this homework is to get you up and running with all the tools you
 
 In order to get full credit you must do several things.
 
-* Send an email to me with your Github account.
-* Clone a Github repository for hw1.
+* Clone this Github repository.
 * A log of your first sbt console session.
-* Some commits to your new Github repository.   
+* Some commits to your Github repository.   
 
 Detailed instructions on how to do these things are below. 
 
